@@ -25,7 +25,7 @@ jobs:
 
       - name: Build with Gradle Wrapper -> jar 파일 생성
         run: |
-          chmod 544 ./gradlew
+          chmod 777 ./gradlew
           ./gradlew build -x test
 
 
